@@ -1,21 +1,19 @@
 #  Student Record System
 
-A simple C++ console application to manage student data. This project demonstrates basic CRUD (Create, Read, Update, Delete) logic using File Handling.
+A C++ program to manage a student database through the terminal.
 
-##  Features
-* ENTER Record: Save student info to a file.
-* DISPLAY : Display every student in the database which you have entered.
-* Search: Find a specific student by their ID.
-* Update:  Updata existing records.
-* Delete:  remove existing records.
+###  Functions
+* **ENTER:** Bulk data entry for students.
+* **DISPLAY:** Display all records.
+* **Search:** Find by Roll Number.
+* **Update:** Edit existing data.
+* **Delete:** Remove specific or all records.
 
-##  How it Works
-The program uses the `fstream` library to create a `.dat` or `.txt` file on your computer. This ensures that your data is not lost even after you close the program (**Data Persistence**).
+###  Logic
+* Uses **Parallel Arrays** for data storage.
+* Implements **Linear Search** for record retrieval.
+* Uses **Array Shifting** for record deletion.
 
-##  How to Run
-1. Download `management system of student record.cpp`.
-2. Open your terminal or IDE (like Dev-C++ or VS Code).
-3. Compile and Run.
 
 
 
