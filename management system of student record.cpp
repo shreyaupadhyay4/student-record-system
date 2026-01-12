@@ -185,7 +185,7 @@ void deleterecord()
       cout << "Enter the roll no of student which you want to delete" << endl;
       cin >> rollno;
 
-      for (int i = 0; i < total; i++)
+      for (int i = 0; i < total-1; i++)
 
       {
 
